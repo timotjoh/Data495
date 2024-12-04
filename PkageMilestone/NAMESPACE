@@ -1,0 +1,5 @@
+useDynLib(hle1, .registration=TRUE)
+export("hle1R_outer")
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+importFrom( "median")

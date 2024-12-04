@@ -1,0 +1,14 @@
+Package: hle1
+Type: Package
+Title: Hodges-Lehmann Estimates of Location
+Version: 0.0.20241204
+Date: 2024-12-04
+Author: timotjoh
+Maintainer: timotjoh <timotjoh@nmu.edu>
+Description: Includes different methods of estimation of the Hodges-Lehmann estimate of location.  
+Methods may be compared to verify results are equal (or approximately equal) as well as in terms of computation time.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.13)
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2024-04-12 10:39:32 UTC; 
